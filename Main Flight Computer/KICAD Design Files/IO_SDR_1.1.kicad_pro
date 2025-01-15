@@ -58,7 +58,43 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "annular_width|119900000|82190000|bd3c3cf0-b2e0-4713-b791-3a91315a722e|00000000-0000-0000-0000-000000000000",
+        "annular_width|123270000|104670000|c712a66f-46c2-4a67-bfd9-a094f2617ea8|00000000-0000-0000-0000-000000000000",
+        "annular_width|127930000|82470000|6d8d050e-378c-4d1a-945a-6c2fd5f21e69|00000000-0000-0000-0000-000000000000",
+        "annular_width|128770000|70210000|6f92bf77-e07d-48c1-a30f-03dfc20ee4b2|00000000-0000-0000-0000-000000000000",
+        "annular_width|131078126|96001436|32c06f7a-23c2-43ec-80fc-d66bf3bb17c9|00000000-0000-0000-0000-000000000000",
+        "annular_width|141478000|137414000|2b3bfa8b-d303-4476-8439-bc8266dd7b64|00000000-0000-0000-0000-000000000000",
+        "annular_width|145288000|134620000|c2483f29-809e-431b-978e-47643897d760|00000000-0000-0000-0000-000000000000",
+        "annular_width|147036000|57629984|170f3b17-7b2e-4950-9f99-878c477ff40b|00000000-0000-0000-0000-000000000000",
+        "annular_width|147066000|122174000|253f4eb1-45f9-4b79-a8cd-2e2d1f536885|00000000-0000-0000-0000-000000000000",
+        "annular_width|148844000|122936000|ee3955d2-fca7-49cc-95b9-d286f44db1dc|00000000-0000-0000-0000-000000000000",
+        "annular_width|151130000|122936000|b3227ed1-1450-4578-b9c6-9c14a8484fd9|00000000-0000-0000-0000-000000000000",
+        "annular_width|178308000|105410000|4a374e73-f014-4caa-af3c-dc5184b45763|00000000-0000-0000-0000-000000000000",
+        "annular_width|180980000|79430000|2b7cde7f-0d3a-416c-843e-483d11bf4f7f|00000000-0000-0000-0000-000000000000",
+        "annular_width|181102000|105918000|12d649c9-1472-4512-97e4-ad81de6b2ee8|00000000-0000-0000-0000-000000000000",
+        "annular_width|181356000|104140000|f583e717-1b28-4c7b-9b1e-991147a61e00|00000000-0000-0000-0000-000000000000",
+        "annular_width|181356000|110236000|74fa6789-df87-40b1-bbec-221bb8568202|00000000-0000-0000-0000-000000000000",
+        "annular_width|183029975|101900025|f415cdd6-eb88-4968-8346-88733924c3e1|00000000-0000-0000-0000-000000000000",
+        "annular_width|183642000|106172000|96ae3d7e-3e25-4924-8f78-28c7733a039e|00000000-0000-0000-0000-000000000000",
+        "annular_width|183642000|108458000|aa26435b-2335-4732-8251-ccc6a7605f3c|00000000-0000-0000-0000-000000000000",
+        "clearance|148477153|78578054|ef0ff95a-b9db-4a5e-90f7-8c679595632a|fe9b0c14-414f-47a5-9546-0a4734dcb628",
+        "clearance|148477153|78578103|ae3e7913-ac4d-45fd-965c-87109b3cbf64|fe9b0c14-414f-47a5-9546-0a4734dcb628",
+        "clearance|148746104|79992014|f9a6c023-07ee-4550-8f3e-6e2435488a27|fe9b0c14-414f-47a5-9546-0a4734dcb628",
+        "clearance|148786384|78862884|c66cd37d-bfe2-4786-a477-98e1f52b3040|fe9b0c14-414f-47a5-9546-0a4734dcb628",
+        "clearance|149227124|79453074|f7d2fda2-3edb-44af-b7f3-799b6f6a10ec|fe9b0c14-414f-47a5-9546-0a4734dcb628",
+        "clearance|149227157|79453054|44e2cfba-fd80-43db-91f6-efd65586c093|fe9b0c14-414f-47a5-9546-0a4734dcb628",
+        "clearance|149701244|78862884|50e22d7f-4af2-4893-8634-fb6d55d24bcb|fe9b0c14-414f-47a5-9546-0a4734dcb628",
+        "clearance|149705154|80015434|3a783ed3-89d1-4061-b446-fec53188a2f4|fe9b0c14-414f-47a5-9546-0a4734dcb628",
+        "clearance|162451412|79309058|08d734be-d909-481d-954d-7328e70aa1e5|087730fa-b388-4fa5-8930-863c31aa54c5",
+        "clearance|162451412|79309062|1f549525-b165-4297-95f8-bbf4f3fb3d81|087730fa-b388-4fa5-8930-863c31aa54c5",
+        "clearance|162729564|80747314|439faba6-b48b-4d76-bfe4-2dc54a1b48b1|087730fa-b388-4fa5-8930-863c31aa54c5",
+        "clearance|162764214|79614114|cd45cc1e-d8c0-482e-9346-22b6f2062f8c|087730fa-b388-4fa5-8930-863c31aa54c5",
+        "clearance|163201394|80184044|e87c9ab5-513a-403d-b34e-bebc23a74dc0|087730fa-b388-4fa5-8930-863c31aa54c5",
+        "clearance|163201416|80184058|b8ff4e14-1ea3-41f9-a2a6-55abff3832ea|087730fa-b388-4fa5-8930-863c31aa54c5",
+        "clearance|163637514|80729984|388479af-7a74-413c-acff-7ab4e7bef7ab|087730fa-b388-4fa5-8930-863c31aa54c5",
+        "clearance|163658294|79610664|2642d91c-b973-4914-a0b1-95835270758f|087730fa-b388-4fa5-8930-863c31aa54c5"
+      ],
       "meta": {
         "version": 2
       },
@@ -725,8 +761,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "[rishivg] PLUTOX_SDR-V1.0.net",
-      "plot": "",
-      "pos_files": "",
+      "plot": "production/",
+      "pos_files": "../BOM/",
       "specctra_dsn": "",
       "step": "../3D STEP/[rishivg] PLUTOX_SDR-V1.0.step",
       "svg": "",
@@ -736,7 +772,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "..\\BOM\\test_IO_SDR_1.1.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -753,20 +789,14 @@
       "fields_ordered": [
         {
           "group_by": false,
-          "label": "Reference",
-          "name": "Reference",
-          "show": true
-        },
-        {
-          "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
+          "label": "Reference",
+          "name": "Reference",
           "show": true
         },
         {
@@ -777,15 +807,21 @@
         },
         {
           "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -882,13 +918,19 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB Part#",
+          "name": "JLCPCB Part#",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Datasheet"
     },
     "connection_grid_size": 50.0,
     "drawing": {

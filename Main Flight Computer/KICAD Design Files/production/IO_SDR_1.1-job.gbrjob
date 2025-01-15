@@ -1,0 +1,253 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "8.0.6"
+    },
+    "CreationDate": "2025-01-14T20:30:26-08:00"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "IO_SDR_1.1",
+      "GUID": "494f5f53-4452-45f3-912e-312e6b696361",
+      "Revision": "rev?"
+    },
+    "Size": {
+      "X": 91.7,
+      "Y": 91.7
+    },
+    "LayerNumber": 6,
+    "BoardThickness": 1.6203,
+    "Finish": "None",
+    "ImpedanceControlled": true
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.1016,
+      "PadToTrack": 0.1016,
+      "TrackToTrack": 0.1016,
+      "MinLineWidth": 0.1016,
+      "TrackToRegion": 0.1524,
+      "RegionToRegion": 0.1524
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.1016,
+      "PadToTrack": 0.1016,
+      "TrackToTrack": 0.1016,
+      "MinLineWidth": 0.1016,
+      "TrackToRegion": 0.1016,
+      "RegionToRegion": 0.1016
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "IO_SDR_1.1-Top_Cu.gbr",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "IO_SDR_1.1-In1_GND1_Cu.gbr",
+      "FileFunction": "Copper,L2,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "IO_SDR_1.1-In2_Sig1_Cu.gbr",
+      "FileFunction": "Copper,L3,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "IO_SDR_1.1-In3_PWR1_Cu.gbr",
+      "FileFunction": "Copper,L4,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "IO_SDR_1.1-In4PWR2_Cu.gbr",
+      "FileFunction": "Copper,L5,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "IO_SDR_1.1-Bottom_Cu.gbr",
+      "FileFunction": "Copper,L6,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "IO_SDR_1.1-F_Adhesive.gbr",
+      "FileFunction": "Glue,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "IO_SDR_1.1-B_Adhesive.gbr",
+      "FileFunction": "Glue,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "IO_SDR_1.1-F_Paste.gbr",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "IO_SDR_1.1-B_Paste.gbr",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "IO_SDR_1.1-F_Silkscreen.gbr",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "IO_SDR_1.1-B_Silkscreen.gbr",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "IO_SDR_1.1-F_Mask.gbr",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "IO_SDR_1.1-B_Mask.gbr",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "IO_SDR_1.1-Edge_Cuts.gbr",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "IO_SDR_1.1-F_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "IO_SDR_1.1-B_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Bot",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.0102,
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0351,
+      "Name": "Top.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1,
+      "Material": "FR4",
+      "DielectricConstant": "4.1",
+      "LossTangent": "0.02",
+      "Name": "Top.Cu/In1.GND1.Cu",
+      "Notes": "Type: dielectric layer 1 (from Top.Cu to In1.GND1.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "In1.GND1.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.508,
+      "Material": "FR4",
+      "DielectricConstant": "4.6",
+      "LossTangent": "0.02",
+      "Name": "In1.GND1.Cu/In2_Sig1.Cu",
+      "Notes": "Type: dielectric layer 2 (from In1.GND1.Cu to In2_Sig1.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "In2_Sig1.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1,
+      "Material": "FR4",
+      "DielectricConstant": "4.1",
+      "LossTangent": "0.02",
+      "Name": "In2_Sig1.Cu/In3_PWR1.Cu (1/2)",
+      "Notes": "Type: dielectric layer 3 - 1/2 (from In2_Sig1.Cu to In3_PWR1.Cu)"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.0765,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "In2_Sig1.Cu/In3_PWR1.Cu (2/2)",
+      "Notes": "Type: dielectric layer 3 - 2/2 (from In2_Sig1.Cu to In3_PWR1.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "In3_PWR1.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.508,
+      "Material": "FR4",
+      "DielectricConstant": "4.6",
+      "LossTangent": "0.02",
+      "Name": "In3_PWR1.Cu/In4PWR2.Cu",
+      "Notes": "Type: dielectric layer 4 (from In3_PWR1.Cu to In4PWR2.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "In4PWR2.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1,
+      "Material": "FR4",
+      "DielectricConstant": "4.1",
+      "LossTangent": "0.02",
+      "Name": "In4PWR2.Cu/Bottom.Cu (1/2)",
+      "Notes": "Type: dielectric layer 5 - 1/2 (from In4PWR2.Cu to Bottom.Cu)"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.0765,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "In4PWR2.Cu/Bottom.Cu (2/2)",
+      "Notes": "Type: dielectric layer 5 - 2/2 (from In4PWR2.Cu to Bottom.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0351,
+      "Name": "Bottom.Cu"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.0102,
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}
