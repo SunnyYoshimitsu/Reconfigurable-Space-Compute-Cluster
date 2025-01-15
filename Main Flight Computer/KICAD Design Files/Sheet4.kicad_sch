@@ -96402,7 +96402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "\n25 MHz ±20ppm Crystal 12pF 50 Ohms 4-SMD, No Lead\n"
+		(property "Description" "25 MHz ±20ppm Crystal 12pF 50 Ohms 4-SMD, No Lead"
 			(at 539.75 307.34 0)
 			(effects
 				(font
@@ -98422,7 +98422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "\nSDIO Port Expander With Voltage-Level Translation\n"
+		(property "Description" "SDIO Port Expander With Voltage-Level Translation"
 			(at 365.125 507.365 0)
 			(effects
 				(font
@@ -117717,7 +117717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "\nConn IC Socket SD Memory Cd Micro 1.10mm 8Cir Norm Mnt SMT Push-Push LF | Molex Incorporated 502570-0893\n"
+		(property "Description" "Conn IC Socket SD Memory Cd Micro 1.10mm 8Cir Norm Mnt SMT Push-Push LF | Molex Incorporated 502570-0893"
 			(at 473.71 484.505 0)
 			(effects
 				(font

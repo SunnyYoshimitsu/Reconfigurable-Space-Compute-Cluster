@@ -5,8 +5,47 @@
 	(uuid "38786148-0fd1-46d3-8412-9a7876291ebf")
 	(paper "A3")
 	(lib_symbols)
+	(text "RF and USB"
+		(exclude_from_sim no)
+		(at 188.976 124.587 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "043b7e35-9605-4796-a482-432c9a0015a1")
+	)
+	(text "Power and External Connections"
+		(exclude_from_sim no)
+		(at 130.81 124.587 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6537c33-9cdd-4499-891c-6d34ec6aa055")
+	)
+	(text "FPGA and Peripherals"
+		(exclude_from_sim no)
+		(at 248.158 124.333 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7a6f192-1bc1-4b9c-a4e4-5c87ab3ee11c")
+	)
 	(sheet
-		(at 208.407 121.539)
+		(at 188.087 121.412)
 		(size 49.276 22.987)
 		(stroke
 			(width 0.1524)
@@ -16,8 +55,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "26408935-5483-4e64-b037-b34c2a58be86")
-		(property "Sheetname" "Sheet3"
-			(at 208.28 121.158 0)
+		(property "Sheetname" "Sheet2"
+			(at 187.96 121.031 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26,7 +65,7 @@
 			)
 		)
 		(property "Sheetfile" "Sheet3.kicad_sch"
-			(at 208.407 146.2536 0)
+			(at 188.087 146.1266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43,7 +82,7 @@
 		)
 	)
 	(sheet
-		(at 267.97 121.285)
+		(at 247.65 121.158)
 		(size 49.403 22.987)
 		(fields_autoplaced yes)
 		(stroke
@@ -54,8 +93,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "643e53b8-38bd-42e3-86de-6cc8c6c09224")
-		(property "Sheetname" "Sheet4"
-			(at 267.97 120.5734 0)
+		(property "Sheetname" "Sheet3"
+			(at 247.65 120.4464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64,7 +103,7 @@
 			)
 		)
 		(property "Sheetfile" "Sheet4.kicad_sch"
-			(at 267.97 144.8566 0)
+			(at 247.65 144.7296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -81,44 +120,7 @@
 		)
 	)
 	(sheet
-		(at 149.352 121.158)
-		(size 48.006 24.511)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "8ac59cf2-de82-424f-b7a5-0f81b1511fd9")
-		(property "Sheetname" "Sheet2"
-			(at 149.352 120.777 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Sheet2.kicad_sch"
-			(at 149.479 146.558 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "IO_SDR_1.1"
-				(path "/38786148-0fd1-46d3-8412-9a7876291ebf"
-					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 91.186 121.539)
+		(at 130.302 121.158)
 		(size 47.752 24.257)
 		(fields_autoplaced yes)
 		(stroke
@@ -130,7 +132,7 @@
 		)
 		(uuid "b3b43e8b-7f47-4b04-880b-01695a760090")
 		(property "Sheetname" "Sheet1"
-			(at 91.186 120.8274 0)
+			(at 130.302 120.4464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -139,7 +141,7 @@
 			)
 		)
 		(property "Sheetfile" "Sheet1.kicad_sch"
-			(at 91.186 146.3806 0)
+			(at 130.302 145.9996 0)
 			(effects
 				(font
 					(size 1.27 1.27)

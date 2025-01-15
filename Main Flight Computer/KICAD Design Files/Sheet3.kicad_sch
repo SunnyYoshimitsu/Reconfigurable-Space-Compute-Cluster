@@ -15540,7 +15540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "\nAudio Transformers / Signal Transformers 1:1 CORE & WIRE Transformer, 10 - 6000 MHz, 50 ohms\n"
+		(property "Description" "Audio Transformers / Signal Transformers 1:1 CORE & WIRE Transformer, 10 - 6000 MHz, 50 ohms"
 			(at 316.865 92.71 0)
 			(effects
 				(font
@@ -18142,7 +18142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "\nAudio Transformers / Signal Transformers 1:1 CORE & WIRE Transformer, 10 - 6000 MHz, 50 ohms\n"
+		(property "Description" "Audio Transformers / Signal Transformers 1:1 CORE & WIRE Transformer, 10 - 6000 MHz, 50 ohms"
 			(at 316.865 60.96 0)
 			(effects
 				(font
@@ -18572,7 +18572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 42.545 188.595 0)
 			(effects
 				(font
@@ -20459,7 +20459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "\nAudio Transformers / Signal Transformers 1:1 CORE & WIRE Transformer, 10 - 6000 MHz, 50 ohms\n"
+		(property "Description" "Audio Transformers / Signal Transformers 1:1 CORE & WIRE Transformer, 10 - 6000 MHz, 50 ohms"
 			(at 316.865 28.575 0)
 			(effects
 				(font
@@ -21989,7 +21989,7 @@
 				)
 			)
 		)
-		(property "Value" "AD9361BBCZ"
+		(property "Value" "AD9363BBCZ"
 			(at 173.355 249.555 0)
 			(effects
 				(font
@@ -22016,7 +22016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "\nRF Agile Transceiver\n"
+		(property "Description" "RF Agile Transceiver"
 			(at 187.96 148.59 0)
 			(effects
 				(font
@@ -22807,7 +22807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "\nMicrochip USB3320C-EZK-TR, USB Transceiver, USB 2.0, 1.8 V, 3.3 V, 32-Pin QFN | Microchip Technology Inc. USB3320C-EZK-TR\n"
+		(property "Description" "Microchip USB3320C-EZK-TR, USB Transceiver, USB 2.0, 1.8 V, 3.3 V, 32-Pin QFN | Microchip Technology Inc. USB3320C-EZK-TR"
 			(at 328.93 185.42 0)
 			(effects
 				(font
@@ -23279,7 +23279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "\n25 MHz ±10ppm Crystal 18pF 40 Ohms 4-SMD, No Lead\n"
+		(property "Description" "25 MHz ±10ppm Crystal 18pF 40 Ohms 4-SMD, No Lead"
 			(at 389.89 232.41 0)
 			(effects
 				(font
@@ -24966,7 +24966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "\nAudio Transformers / Signal Transformers 1:1 CORE & WIRE Transformer, 10 - 6000 MHz, 50 ohms\n"
+		(property "Description" "Audio Transformers / Signal Transformers 1:1 CORE & WIRE Transformer, 10 - 6000 MHz, 50 ohms"
 			(at 320.04 128.27 0)
 			(effects
 				(font

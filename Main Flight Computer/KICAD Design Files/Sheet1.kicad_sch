@@ -12241,7 +12241,7 @@
 		)
 		(uuid "7360dbab-01be-49ec-bea4-966eb1d77768")
 	)
-	(text "JATG PINS\n "
+	(text "JTAG PINS\n "
 		(exclude_from_sim no)
 		(at 234.95 230.505 0)
 		(effects
@@ -14461,7 +14461,7 @@
 				)
 			)
 		)
-		(property "Value" "HR8031GS6"
+		(property "Value" "SQ2361ES"
 			(at 95.885 187.325 90)
 			(effects
 				(font
@@ -15955,7 +15955,7 @@
 				)
 			)
 		)
-		(property "Value" "TCS4615"
+		(property "Value" "AP3445W6-7"
 			(at 338.2772 164.0078 0)
 			(effects
 				(font
@@ -18820,7 +18820,7 @@
 				)
 			)
 		)
-		(property "Value" "TCS4615"
+		(property "Value" "AP3445W6-7"
 			(at 339.0646 109.2708 0)
 			(effects
 				(font
@@ -19569,7 +19569,7 @@
 				)
 			)
 		)
-		(property "Value" "TCS4615"
+		(property "Value" "AP3445W6-7"
 			(at 169.545 135.001 0)
 			(effects
 				(font
@@ -21377,7 +21377,7 @@
 				)
 			)
 		)
-		(property "Value" "HR8031GS6"
+		(property "Value" "SQ2361ES"
 			(at 84.455 108.585 0)
 			(effects
 				(font
@@ -21581,7 +21581,7 @@
 				)
 			)
 		)
-		(property "Value" "HR8031GS6"
+		(property "Value" "SQ2361ES"
 			(at 70.485 109.22 0)
 			(effects
 				(font
@@ -25378,7 +25378,7 @@
 				)
 			)
 		)
-		(property "Value" "TCS4615"
+		(property "Value" "AP3445W6-7"
 			(at 207.645 57.531 0)
 			(effects
 				(font
