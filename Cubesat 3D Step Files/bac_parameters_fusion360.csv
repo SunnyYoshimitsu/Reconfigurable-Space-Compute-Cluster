@@ -1,0 +1,115 @@
+BOARD_STRUCTURAL_floor_thick,mm,BOARD_STRUCTURAL_side_thick,
+BOARD_STRUCTURAL_grid_primary_hole_dia,mm,RAIL_fastener_M3_bolt_dia + RAIL_fit_clearance_tight,
+BOARD_STRUCTURAL_grid_primary_spacing,mm,10 mm,
+BOARD_STRUCTURAL_grid_secondary_hole_dia,mm,1 mm,
+BOARD_STRUCTURAL_grid_secondary_spacing,mm,BOARD_STRUCTURAL_grid_primary_spacing / 2,
+BOARD_STRUCTURAL_height,mm,RAIL_dovetail_bolt_hole_distance / 2,
+BOARD_STRUCTURAL_side_thick,mm,RAIL_pcb_thick,
+CLAMP_clamping_face_fillet,mm,RAIL_chamfer_xsmall,
+CLAMP_fastener_M3_nut_fillet,mm,1 mm,
+CLAMP_fit_jaws,mm,RAIL_fit_clearance_tight,
+CLAMP_fixed_jaw_alignment_chamfer,mm,2 mm,
+CLAMP_pcb_clamping_distance,mm,0.2 mm,
+CLAMP_pcb_distance,mm,5 mm,
+CLAMP_pcb_slot_depth,mm,4.5 mm,
+CLAMP_pcb_slot_height,mm,1.7 mm,
+CLAMP_small_height,mm,30 mm - RAIL_dovetail_alignment_slot_height,
+EPSBAY_alignment_flat_stickout,mm,2.5 mm,
+EPSBAY_alignment_pin_stickout,mm,5 mm,
+EPSBAY_bat_18650_dia,mm,18.5 mm,
+EPSBAY_bat_18650_len,mm,65 mm,
+EPSBAY_bat_pcb_dome_dia,mm,7 mm,
+EPSBAY_bat_pcb_dome_height,mm,0.46 mm,
+EPSBAY_bat_pcb_height,mm,10 mm - RAIL_fit_clearance_tight,
+EPSBAY_bat_pcb_pin_positions,,2,
+EPSBAY_bat_pcb_pin_rows,,2,
+EPSBAY_bat_pcb_pins_height,mm,( EPSBAY_bat_pcb_pin_positions / EPSBAY_bat_pcb_pin_rows ) * 0.1 in + 0.1 mm,
+EPSBAY_bat_pcb_pins_width,mm,( EPSBAY_bat_pcb_pin_positions / EPSBAY_bat_pcb_pin_rows ) * 1 mm + 0.1 in + 0.5 mm,
+EPSBAY_bat_pcb_width,mm,70 mm,
+EPSBAY_bat1_cell_count,,4,
+EPSBAY_bat1_cell_extent,mm,60 mm,
+EPSBAY_battery_pcb_pin_slot_depth,mm,2.5 mm,Mill-Max 3320-0-00-15-00-00-03-0
+EPSBAY_battery_pcb_pin_slot_depth_GND,mm,EPSBAY_battery_pcb_pin_slot_depth - 0.5 mm,
+EPSBAY_battery_pcb_pin_slot_width,mm,0.51 mm,Mill-Max 3320-0-00-15-00-00-03-0
+EPSBAY_flooor_thick,mm,EPSBAY_side_thick,
+EPSBAY_floor_width,mm,2 * EPSBAY_side_thick,
+EPSBAY_height,mm,CLAMP_small_height,
+EPSBAY_panel_fit,mm,RAIL_fit_clearance_loose,
+EPSBAY_pcb_battery_pressfit_receptacle_hole_dia,mm,1.651 mm,Mill-Max 0630-0-15-15-30-27-10-0
+EPSBAY_pcb_m2_socket_locating_pin_keyside_dia,mm,1.6 mm,NPTH. Amphenol MDT350M01001VT.
+EPSBAY_pcb_m2_socket_locating_pin_nonkeyside_dia,mm,1.1 mm,NPTH. Amphenol MDT350M01001VT.
+EPSBAY_pcb_m2_socket_locating_pin_spacing,mm,20 mm,Amphenol MDT350M01001VT
+EPSBAY_pcb_pv_solder_receptacle_mounting_hole_dia,mm,1.3 mm,Mill-Max 0630-0-15-15-30-27-10-0
+EPSBAY_pin_spacing,mm,( 1 / 10 in) * 1 mm,
+EPSBAY_pv_panel_eps_pin_count,,8,This gets doubled in the sketch for redunddancy
+EPSBAY_pv_panel_eps_pin_normal_from_board,mm,0.05 in,Mill-Max 399-10-106-10-009000
+EPSBAY_side_thick,mm,2 mm,
+MACROMOD_conn_distance_from_origin,mm,38 mm,
+MACROMOD_conn_footprint_height,mm,4 mm,
+MACROMOD_conn_footprint_width,mm,25 mm,
+MACROMOD_conn_pcb_width,mm,22 mm,
+PANEL_eps_pin_face_to_hole,mm,4.5 mm,Mill-Max 399-10-106-10-009000
+PANEL_eps_pin_hole_dia,mm,0.6 mm + RAIL_fit_transition_loose,Mill-Max 399-10-106-10-009000
+PANEL_gap,mm,RAIL_pcb_thick,
+PANEL_height,mm,( floor(RAIL_dovetail_bolt_hole_count_2U / 2) * RAIL_dovetail_bolt_hole_distance - 2 * PANEL_gap ) / 2,
+PANEL_pin_length,mm,0.25 in,Mill-Max 3320-0-00-15-00-00-03-0
+PANEL_pin_slot_depth,mm,( PANEL_pin_length - PANEL_gap ) / 2 + RAIL_fit_clearance_tight,
+PANEL_pin_slot_depth_GND,mm,PANEL_pin_slot_depth - 1 mm,
+PANEL_pin_slot_width,mm,EPSBAY_battery_pcb_pin_slot_width,
+PANEL_pv_cell_gap,mm,PANEL_gap,
+PANEL_pv_contact_dia,mm,3 mm,Anysolar SM141K10TF
+PANEL_pv_contact_spacing_primary,mm,PANEL_pv_width - ( 2 * 3 ) * 1 mm,Anysolar SM141K10TF
+PANEL_pv_contact_spacing_secondary,mm,PANEL_pv_width - ( 2 * 10 ) * 1 mm,Anysolar SM141K10TFS
+PANEL_pv_thick,mm,1.2 mm,Anysolar SM141K10TF
+PANEL_pv_width,mm,70 mm,Anysolar SM141K10TF
+PANEL_receptacle_slot_depth,mm,0.1 in + RAIL_fit_clearance_tight,
+PANEL_receptacle_slot_depth_GND,mm,PANEL_receptacle_slot_depth + PANEL_pin_slot_depth - PANEL_pin_slot_depth_GND,
+PANEL_receptacle_slot_width,mm,EPSBAY_pcb_pv_solder_receptacle_mounting_hole_dia,
+PANEL_spacing,mm,PANEL_gap + PANEL_height,Mill-Max 3320-0-00-15-00-00-03-0
+PANELBRACE_max_protrusion_beyond_rail,mm,4 mm,CDS 14.1 states 6.5
+PCB_diagonal,mm,90 mm,
+PCB_fillet,mm,3 mm,
+PCB_side,mm,85 mm,
+RAIL_card_inset,mm,1.95 mm,
+RAIL_card_inset_width,mm,2.5 mm,
+RAIL_chamfer_large,mm,1 mm,
+RAIL_chamfer_med,mm,0.75 mm,
+RAIL_chamfer_small,mm,0.5 mm,
+RAIL_chamfer_xsmall,mm,0.25 mm,
+RAIL_cubesat_X_envelope,mm,100 mm,
+RAIL_cubesat_Y_envelope,mm,RAIL_cubesat_X_envelope,
+RAIL_deployment_pin_dia,mm,3 mm,
+RAIL_dovetail_alignment_hole_count_2U,,21,
+RAIL_dovetail_alignment_hole_depth,mm,12 mm,
+RAIL_dovetail_alignment_hole_dia,mm,RAIL_fastener_M3_predrill + RAIL_fit_transition_tight,
+RAIL_dovetail_alignment_hole_distance,mm,RAIL_dovetail_bolt_hole_distance,
+RAIL_dovetail_alignment_slot_depth,mm,2.5 mm + RAIL_fit_transition_tight,
+RAIL_dovetail_alignment_slot_height,mm,1 mm + RAIL_fit_transition_tight,
+RAIL_dovetail_bay_depth,mm,RAIL_dovetail_bolt_hole_depth,
+RAIL_dovetail_bay_draft,deg,7 deg,
+RAIL_dovetail_bay_fillet,mm,1 mm,
+RAIL_dovetail_bolt_hole_count_2U,,23,
+RAIL_dovetail_bolt_hole_depth,mm,12 mm,
+RAIL_dovetail_bolt_hole_dia,mm,RAIL_fastener_M3_bolt_dia + 0.5 mm,
+RAIL_dovetail_bolt_hole_distance,mm,10 mm,
+RAIL_dovetail_counter_hole_depth,mm,7.5 mm,
+RAIL_dovetail_counter_hole_dia,mm,RAIL_fastener_M3_head_dia + RAIL_fit_clearance_tight,"ISO 14579, ISO 14580, ISO 14581, ISO 7090, ISO 16983, ISO 4032, ISO 7042, Aerotight M3 Nut. Don't apply tolerance to this"
+RAIL_dovetail_Z_grove_dia,mm,2 mm,
+RAIL_fastener_M3_bolt_dia,mm,3 mm,
+RAIL_fastener_M3_head_dia,mm,6 mm,
+RAIL_fastener_M3_nut_bolt_depth,mm,5 mm,
+RAIL_fastener_M3_nut_circumscribed_dia,mm,6.2 mm,
+RAIL_fastener_M3_nut_inscribed_dia,mm,5.5 mm,
+RAIL_fastener_M3_predrill,mm,RAIL_fastener_M3_bolt_dia - 0.5 mm,
+RAIL_fit_interference,mm,-RAIL_fit_transition_tight,Estimate based on 25 um Type II anodization. Adjust for Type III.
+RAIL_fit_clearance_loose,mm,2 * RAIL_fit_clearance_tight,Estimate based on 25 um Type II anodization. Adjust for Type III.
+RAIL_fit_clearance_tight,mm,2 * RAIL_fit_transition_loose,Estimate based on 25 um Type II anodization. Adjust for Type III.
+RAIL_fit_transition_loose,mm,2 * RAIL_fit_transition_tight,Estimate based on 25 um Type II anodization. Adjust for Type III.
+RAIL_fit_transition_tight,mm,0.05 mm,Estimate based on 25 um Type II anodization. Adjust for Type III.
+RAIL_pcb_thick,mm,1.6 mm,
+RAIL_rail_chamfer,mm,3.5 mm,
+RAIL_rail_fillet,mm,1.5 mm,
+RAIL_rail_XY,mm,12.5 mm,
+RAIL_rail_XY_contact_area_min,mm,6.5 mm,
+RAIL_rail_XY_min,mm,8.5 mm,CDS Rev. 14
+RAIL_rail_Z_length_2U,mm,227 mm,CDS Rev. 14
