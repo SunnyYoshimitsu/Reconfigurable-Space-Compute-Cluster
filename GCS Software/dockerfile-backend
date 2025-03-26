@@ -1,0 +1,17 @@
+FROM node:23
+
+RUN mkdir -p /home/node/backend/node_modules && chown -R node:node /home/node/backend
+
+WORKDIR /home/node/backend
+
+COPY package.json .
+
+USER node
+
+RUN npm install --ignore-scripts
+
+COPY --chown=node:node ./server .
+
+EXPOSE 8080
+
+CMD ["npm", "run", "backend"]

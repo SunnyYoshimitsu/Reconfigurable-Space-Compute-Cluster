@@ -1,0 +1,48 @@
+.cubesat {
+    margin: 16px;
+    padding: 8px;
+    display: flex;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 16px;
+}
+
+.attributesGrid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px;
+}
+  
+.attribute {
+    background-color: #f4f4f4;
+    padding: 8px;
+}
+
+.description {
+    margin-left: 20px;
+}
+  
+.title {
+    font-size: 24px;
+}
+
+.cubesatImage {
+    width: 100px;
+    height: 100px;
+}
+
+.delete {
+    position: absolute;
+    top: 2;
+    right: 0;
+    padding: 5px 10px;
+    margin-right: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.removeCubesatPopup {
+    position: absolute;
+    background-color: red;
+    transform: translate(100%, 125%);
+}
