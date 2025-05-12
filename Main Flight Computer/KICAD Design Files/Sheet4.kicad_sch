@@ -76071,12 +76071,6 @@
 		)
 	)
 	(junction
-		(at 577.85 185.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0040a2ae-2186-47e9-8388-b29761d9755e")
-	)
-	(junction
 		(at 608.2284 361.0102)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -77803,7 +77797,7 @@
 		(uuid "4d514519-3af0-4403-bb99-429af65138dd")
 	)
 	(no_connect
-		(at 565.785 190.5)
+		(at 565.404 190.5)
 		(uuid "4e1b53ac-746f-43ef-a1f9-6c6d22ea33ec")
 	)
 	(no_connect
@@ -78201,16 +78195,6 @@
 			(type default)
 		)
 		(uuid "0358dab5-92f3-42bb-8ffa-a7c5d9a69098")
-	)
-	(wire
-		(pts
-			(xy 565.404 185.42) (xy 577.85 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "049d1431-3f30-468d-af21-c7b464a73a2c")
 	)
 	(wire
 		(pts
@@ -79195,7 +79179,7 @@
 	)
 	(wire
 		(pts
-			(xy 577.85 185.42) (xy 577.85 180.34)
+			(xy 577.85 180.34) (xy 577.85 195.58)
 		)
 		(stroke
 			(width 0)
@@ -84789,16 +84773,6 @@
 			(type default)
 		)
 		(uuid "bcc22e6d-6f3d-4acc-b70a-d7295350a031")
-	)
-	(wire
-		(pts
-			(xy 577.85 185.42) (xy 577.85 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcc77b55-ceb6-46fb-9c96-9098f0808fc9")
 	)
 	(wire
 		(pts
@@ -105816,6 +105790,72 @@
 			(project "IO_SDR_1.1"
 				(path "/38786148-0fd1-46d3-8412-9a7876291ebf/643e53b8-38bd-42e3-86de-6cc8c6c09224"
 					(reference "#PWR0226")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 565.404 185.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87a2c2d6-7532-4ba2-a6ae-50d8bedd7cc3")
+		(property "Reference" "#PWR094"
+			(at 571.754 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 570.484 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 565.404 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 565.404 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 565.404 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4c88438-f0c5-41bb-b55d-2a2e81f1bed4")
+		)
+		(instances
+			(project "IO_SDR_1.1"
+				(path "/38786148-0fd1-46d3-8412-9a7876291ebf/643e53b8-38bd-42e3-86de-6cc8c6c09224"
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
