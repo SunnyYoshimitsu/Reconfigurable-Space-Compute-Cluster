@@ -30,6 +30,10 @@ Python: https://www.python.org/downloads/
 
 ## Running App
 
+### Run Commands via CLI Menu
+
+Run `node start.js` for all user options
+
 ### Run Backend with Docker
 
 Open Docker Desktop to be able to run on Mac/Windows\
@@ -38,7 +42,7 @@ Run `docker-compose up --build` or `docker-compose up -d` to run in the backgrou
 ### Run Local Electron App
 
 Run `npm install` to install depencencies before running app (first time only / after new depencencies added)\
-Run `npm start` to Start Appart`
+Run `npm start` to Start App
 
 ### Run Python Script
 
