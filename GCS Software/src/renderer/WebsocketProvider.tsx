@@ -6,17 +6,19 @@ interface ContextType {
     send: (name: string) => void;
 }
 
-export const WebsocketContext = createContext<ContextType>({ready: false,
-                                                            value: null,
-                                                            send: () => {}});
+export const WebsocketContext = createContext<ContextType>({
+    ready: false,
+    value: null,
+    send: () => {},
+});
 
-const URL = 'ws://127.0.0.1:8080'
+const URL = "ws://127.0.0.1:8080";
 
 interface Props {
-    children?: ReactNode
+    children?: ReactNode;
 }
 
-export const WebsocketProvider = ({children} : Props ) => {
+export const WebsocketProvider = ({ children }: Props) => {
     const [isReady, setIsReady] = useState(false);
     const [val, setVal] = useState(null);
     const [tick, setTick] = useState(0);
@@ -31,25 +33,25 @@ export const WebsocketProvider = ({children} : Props ) => {
         socket.onclose = () => setIsReady(false);
         socket.onmessage = (event) => {
             setVal(event.data);
-            setTick(tick+1);
+            setTick(tick + 1);
         };
 
         ws.current = socket;
 
         return () => {
             socket.close();
-        }
-    }, [])
+        };
+    }, []);
 
     const ret = {
         ready: isReady,
         value: val,
-        send: send
+        send: send,
     };
-    
+
     return (
         <WebsocketContext.Provider value={ret}>
-          {children}
+            {children}
         </WebsocketContext.Provider>
     );
-}
+};

@@ -4,9 +4,8 @@ import './Cubesat.css';
 interface CubesatProps extends Cubesat {
     onDelete: (id: number) => void;
 }
-    
-const Cubesat: React.FC<CubesatProps> = (props) => {
 
+const Cubesat: React.FC<CubesatProps> = (props) => {
     // edit name or id feature with input elements
     // get rid of created and make time since last updated
 
