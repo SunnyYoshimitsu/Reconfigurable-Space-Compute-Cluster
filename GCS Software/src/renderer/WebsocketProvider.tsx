@@ -6,17 +6,17 @@ interface ContextType {
     send: (name: string) => void;
 }
 
+interface Props {
+    children?: ReactNode;
+}
+
+const URL = process.env.REACT_APP_WS_URL || "ws://127.0.0.1:8080";
+
 export const WebsocketContext = createContext<ContextType>({
     ready: false,
     value: null,
     send: () => {},
 });
-
-const URL = "ws://127.0.0.1:8080";
-
-interface Props {
-    children?: ReactNode;
-}
 
 export const WebsocketProvider = ({ children }: Props) => {
     const [isReady, setIsReady] = useState(false);
