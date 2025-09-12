@@ -18,7 +18,7 @@ function Main() {
 
 	const nameRef = useRef<HTMLInputElement>(null);
 	const idRef = useRef<HTMLInputElement>(null);
-	
+
 	/* FUNCTIONS */
 
 	const sendWSRequest = (message: string, params?: {}) => {
@@ -59,7 +59,7 @@ function Main() {
 			} else {
 				sendWSRequest('getAll');
 			}
-			
+
 		}
 	}, [ws.value]);
 

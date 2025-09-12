@@ -10,7 +10,7 @@ interface Props {
     children?: ReactNode;
 }
 
-const URL = process.env.REACT_APP_WS_URL || "ws://127.0.0.1:8080";
+const URL = window.env.WS_URL;
 
 export const WebsocketContext = createContext<ContextType>({
     ready: false,

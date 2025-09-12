@@ -30,10 +30,10 @@ services:
             - '${BACKEND_PORT}:8080'
         restart: always
         environment:
-            DB_NAME: ${MYSQL_DATABASE}
-            DB_USER: ${MYSQL_USER}
-            DB_PASSWORD: ${MYSQL_PASSWORD}
-            DB_HOST: db
+            MYSQL_DATABASE: ${MYSQL_DATABASE}
+            MYSQL_USER: ${MYSQL_USER}
+            MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+            MYSQL_HOST: ${MYSQL_HOST}
             DB_PORT: 3306
             RABBITMQ_USER: ${RABBITMQ_USER}
             RABBITMQ_PASS: ${RABBITMQ_PASS}

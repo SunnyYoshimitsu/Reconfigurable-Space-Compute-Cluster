@@ -2,6 +2,7 @@ import WebSocket from 'ws';
 import wsController from './controllers/controller';
 import db from './config/dbConfig';
 import amqp, { Channel, Message } from 'amqplib'
+import 'dotenv/config';
 
 const websocket_port = 8080
 
